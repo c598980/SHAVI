@@ -1,0 +1,63 @@
+body {
+    background-color: #e5e5e5;
+    /*Bakgrunnsfargen på selve nettsiden*/
+    margin-top: 70px;
+}
+
+
+img {
+    width: 600px;
+    height: 314px;
+    left: 13px;
+    top: 48px;
+
+    background: url(.png);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+nav ul {
+    list-style: none;
+    /*Gjør at det ikke er liste lenger*/
+    width: 100%;
+    /*Hele bredden brukes*/
+    overflow: hidden;
+    margin: 0;
+    background-color: black;
+    /*Endrer bakgrunnsfargen*/
+
+    position: fixed;
+    top: 0;
+    height: 60px;
+}
+
+nav li a {
+    text-decoration: none;
+    /*Ingen spesielle dekorasjoner på tesksten*/
+    color: #e5e5e5;
+    /*Farge på teksten endres*/
+    padding: 10px;
+    font-size: 20px;
+}
+
+nav li a:hover {
+    background-color: #e5e5e5;
+    /*Gjør at når musepekeren beveges over en knapp endrer den farge*/
+    color: #000000;
+}
+
+nav li {
+    float: left;
+    /*Menyen begynner fra venstre og går bortover*/
+    color: #00c31d;
+    display: block;
+    padding: 10px;
+    /*SHAVI logo prosentstørrelse av resten av skrift i navbar*/
+    font-size: 200%;
+
+} 
+
+main {
+    margin-left: 50px;
+}
